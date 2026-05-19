@@ -1,0 +1,9 @@
+Focus on distinguishing features between Movie and TV Show descriptions:
+- Narrative structure (self-contained vs ongoing episodic story)
+- Temporal cues (single event vs continuing storyline)
+- Character scope (single protagonist vs ensemble cast)
+- Resolution signals (story concludes vs story continues)
+- Language patterns specific to each content type
+
+Return ONLY valid JSON with this structure:
+{"proposed_features": [{"feature": "name", "description": "explanation", "possible_values": ["val1", "val2"]}]}
